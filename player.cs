@@ -36,8 +36,9 @@ namespace HelloWorld
             int lower = (mods + 2);
             return rand.Next(lower,upper);
         }
+
         //buy 
-         bool Buy(int index,item _inventory[])
+         bool Buy(int index,item _inventory)
         {
 
         }
@@ -60,7 +61,7 @@ namespace HelloWorld
         }
        public int GetGold()
         {
-            return (_gold);
+                        return (_gold);
         }
         public bool Sell(player _player, int shopIndex, int playerIndex)
         {

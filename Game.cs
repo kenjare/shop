@@ -16,7 +16,7 @@ namespace HelloWorld
 
         }
 
-        public  void PrintInventory(item[] items)
+        public void PrintInventory(item[] items)
         {
             
         }
